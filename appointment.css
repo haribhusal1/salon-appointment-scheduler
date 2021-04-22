@@ -1,0 +1,31 @@
+h1 {
+    color: coral;
+    text-decoration: wavy bisque underline;
+    font-size: 50px;
+    text-align: center;
+    text-decoration: plum wavy;
+    letter-spacing: 20px;
+    
+}
+
+form {
+   color: darkgreen;
+   text-decoration: spa;
+   font-size: 20px;
+   font-weight: ;
+   font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+}
+
+body {
+    background-color: #a8dadc;
+}
+
+button {
+    font-size: 30px;
+    
+}
+
+button:hover {
+    background-color:#fcbf49 ;
+}
+

@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Appointment Form</title>
+    <link rel="stylesheet" href="appointment.css">
+</head>
+
+<body>
+    <h1>Book Your Appointment</h1>
+
+    <form action="/Appointments">
+        <p>
+            <label for="fname">Enter Your First Name:</label>
+            <input id="fname" type="text" placeholder="First Name" name="pasa">
+        </p>
+        <label for="lname">Enter Your Last Name:</label>
+        <input id="lname" type="text" placeholder="Last Name">
+
+        <p>
+            <label name="gender">Select Your Gender:</label>
+            <label for="male"> Male:</label>
+            <input id="male" type="radio" name="gender" value="Male">
+
+            <label for="female"> Female:</label>
+            <input id="female" type="radio" name="gender" value="Male">
+        </p>
+
+        <p>
+            <label for="email">Enter Your Email Address:</label>
+            <input id="email" type="email" placeholder="Email">
+        </p>
+
+        <p>
+
+            <label for="color">Pick a Color:</label>
+            <input id="color" type="color">
+        </p>
+
+        <p>
+
+            <label for="pnumber">Enter Your Phone Number:</label>
+            <input id="pnumber" type="tel" placeholder="Phone Number">
+
+        </p>
+
+        <p>
+
+            <label for="agegroup">
+                <h3>Select Your age group</h3>
+            </label>
+            <select name="agegroup" id="agegroup">
+                <option value="">Don't want to select</option>
+                <option value="infant">Infant</option>
+                <option value="child">Child</option>
+                <option value="kurkure">Kurkure Baish</option>
+                <option selected value="adult">Adult</option>
+                <option value="old">Old</option>
+            </select>
+        </p>
+        <form action="/services">
+            <p>
+            <h2> Select Services </h2>
+            </p>
+            <input type="checkbox" name="facial" id="facial">
+            <label for="facial"> Facial</label>
+
+            <input type="checkbox" name="nails" id="nails">
+            <label for="nails"> Nails</label>
+
+            <input type="checkbox" name="hair" id="hair">
+            <label for="hair"> Hair Services </label>
+
+            <input type="checkbox" name="color" id="color">
+            <label for="color"> Coloring</label>
+
+        </form>
+        <br>
+        <br>
+        <form action="/tos">
+            <input type="checkbox" name="agree_tos" id="agree" checked>
+            <label for="agree">I agree to the terms and conditions of services.</label>
+
+        </form>
+
+        <form action="submit">
+            <p><button>Submit</button></p>
+        </form>
+
+
+
+    </form>
+
+
+</body>
+
+</html>
